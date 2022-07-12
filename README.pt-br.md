@@ -16,20 +16,20 @@ Fonte para curso de capacitação em análise e processamento de dados ambientai
 - [Agir com base em dados](https://github.com/leandromet/enviroment_data_training/blob/main/README.pt-br.md#agir-com-base-em-dados)
 
 ### [Parte 02 - Mais ferramentas e aprofundando os conhecimentos](/part02/#)
-- [Fontes de dados e formatos abertos](#open-data--sources-and-formats)
-- [Coleção científica e rede de biodiversidade](#scientific-collection-and-biodiversity-network)
+- [Fontes de dados e formatos abertos](https://github.com/leandromet/enviroment_data_training/blob/main/README.pt-br.md#fontes-de-dados-e-formatos-abertos)
+- [Coleção científica e rede de biodiversidade](https://github.com/leandromet/enviroment_data_training/blob/main/README.pt-br.md#cole%C3%A7%C3%A3o-cient%C3%ADfica-e-rede-de-biodiversidade)
 - [Google BigQuery](#google-bigquery)
 - [Tableau Online](#tableau-online)
 - [Google DataStudio](#google-datastudio)
-- [Constelação Wiki](#wiki-constelation)
+- [Constelação Wiki](https://github.com/leandromet/enviroment_data_training/blob/main/README.pt-br.md#constela%C3%A7%C3%A3o-wiki)
 - [GitHub / R-Markdown / Jupyter Notebooks](#github--r-markdown--jupyter-notebooks)
-- [Qgis -Processamento R](#qgis--processing-r)
-- [Qgis -Legenda (níveis, escala, contraste)](#qgis--legend-levels-scale-constrast)
-- [CAR/IBGE/SNUC -Brasil fontes espaciais nacionais](#caribgesnuc--brasil-national-spatial-sources)
-- [Geobases -Recursos Espaciais Espírito Santo](#geobases--espirito-santo-spatial-resource)
-- [MapBiomas -Dados históricos ambientais](#mapbiomas--environmental-historic-data)
-- [Sugestão de Curso de Dados Espaciais (português) -SPU](#suggested-course-on-spatial-data-portuguese--spu)
-- [Curso sugerido sobre análise de dados (inglês) -Google Coursera](#suggested-course-on-data-analytics-english--google-coursera)
+- [Qgis -Processamento R](https://github.com/leandromet/enviroment_data_training/blob/main/README.pt-br.md#qgis---processamento-r)
+- [Qgis -Legenda (níveis, escala, contraste)](https://github.com/leandromet/enviroment_data_training/blob/main/README.pt-br.md#qgis--legend-n%C3%ADveis-escala-contraste)
+- [CAR/IBGE/SNUC -Brasil fontes espaciais nacionais](https://github.com/leandromet/enviroment_data_training/blob/main/README.pt-br.md#caribgesnuc-brasil-fontes-espaciais-nacionais)
+- [Geobases -Recursos Espaciais Espírito Santo](https://github.com/leandromet/enviroment_data_training/blob/main/README.pt-br.md#geobases--recurso-espacial-esp%C3%ADrito-santo)
+- [MapBiomas -Dados históricos ambientais](https://github.com/leandromet/enviroment_data_training/blob/main/README.pt-br.md#mapbiomas--dados-hist%C3%B3ricos-ambientais)
+- [Sugestão de Curso de Dados Espaciais (português) -SPU](https://github.com/leandromet/enviroment_data_training/blob/main/README.pt-br.md#sugest%C3%A3o-de-curso-de-dados-espaciais-portugu%C3%AAs--spu)
+- [Curso sugerido sobre análise de dados (inglês) -Google Coursera](https://github.com/leandromet/enviroment_data_training/blob/main/README.pt-br.md#curso-sugerido-sobre-an%C3%A1lise-de-dados-ingl%C3%AAs--google-coursera)
 
 
 
@@ -110,7 +110,7 @@ Fonte para curso de capacitação em análise e processamento de dados ambientai
 ## Google BigQuery
 ## Tableau Online
 ## Google Data Studio
-## wiki da constelação
+## Constelação WIKI
 ## GitHub / R-Markdown / Notebooks Jupyter
 ## Qgis - Processamento R
 ## Qgis -Legend (níveis, escala, contraste)
