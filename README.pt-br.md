@@ -1,7 +1,7 @@
 # Treinamento em Dados Ambientais - 2022
 ## [XI SIMBIOMA - Desacelerando o Antropoceno: desafios e possibilidades na Mata Atlântica](http://www.sambio.org.br/simbioma/)
 Fonte para curso de capacitação em análise e processamento de dados ambientais para o XI Simbioma 2022. Cada tópico terá um código, dado ou arquivo de exemplo, com um vídeo relacionado no youtube.
-[English version](/#)
+[English version](README.md)
 
 ## Índice:
 
