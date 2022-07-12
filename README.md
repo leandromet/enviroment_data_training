@@ -8,7 +8,10 @@ Source for training course on environmental data analysis and processing for the
 - [Environmental Data Basics and Resources](#environmental-data-basics-and-resources)
 - [Database, Dataset and Software](#database-dataset-and-software)
 - [Dataset Setup, Clean and LOG](#dataset-setup-clean-and-log)
-- 
+- [Data collection and selection ](#data-collection-and-selection)
+- [Hypothesis and tools ](#hypothesis-and-tools)
+- [Share and show ](#share-and-show)
+- [Act data-driven] (#act-data-driven)
 
 
 
