@@ -7,13 +7,13 @@ Fonte para curso de capacitação em análise e processamento de dados ambientai
 ## Índice:
 
 ### [Parte 01 - Etapas de Análise de Dados Ambientais](/part01/#)
-- Noções básicas e recursos de dados ambientais
-- Banco de dados, conjunto de dados e software
-- Configuração do conjunto de dados, limpeza e registro
-- Coleta e seleção de dados
-- Hipóteses e ferramentas
-- Compartilhe e mostre
-- Agir com base em dados
+- [Noções básicas e recursos de dados ambientais](https://github.com/leandromet/enviroment_data_training/blob/main/README.pt-br.md#no%C3%A7%C3%B5es-b%C3%A1sicas-e-recursos-de-dados-ambientais)  
+- [Banco de dados, conjunto de dados e software](https://github.com/leandromet/enviroment_data_training/blob/main/README.pt-br.md#banco-de-dados-conjunto-de-dados-e-software)  
+- [Configuração do conjunto de dados, limpeza e registro ](https://github.com/leandromet/enviroment_data_training/blob/main/README.pt-br.md#configura%C3%A7%C3%A3o-do-conjunto-de-dados-limpeza-e-registro) 
+- [Coleta e seleção de dados](https://github.com/leandromet/enviroment_data_training/blob/main/README.pt-br.md#coleta-e-sele%C3%A7%C3%A3o-de-dados)  
+- [Hipóteses e ferramentas](https://github.com/leandromet/enviroment_data_training/blob/main/README.pt-br.md#hip%C3%B3teses-e-ferramentas)
+- [Compartilhe e mostre](https://github.com/leandromet/enviroment_data_training/blob/main/README.pt-br.md#compartilhe-e-mostre)
+- [Agir com base em dados](https://github.com/leandromet/enviroment_data_training/blob/main/README.pt-br.md#agir-com-base-em-dados)
 
 ### [Parte 02 - Mais ferramentas e aprofundando os conhecimentos](/part02/#)
 - [Fontes de dados e formatos abertos](#open-data--sources-and-formats)
