@@ -32,3 +32,10 @@ Source for training course on environmental data analysis and processing for the
 - Dataset definition
 - Software for dataset and database.
 - Relationship over data, time and space
+
+## Dataset Setup, Clean and LOG
+- Visual validation
+- Registering changes, sources and assumptions (LOG)
+- Fields, Keys, conventions (Tidy-R)
+- Data validation
+- Spatial data validation (topology check)
