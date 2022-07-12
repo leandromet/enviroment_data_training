@@ -18,13 +18,13 @@ Source for training course on environmental data analysis and processing for the
 
 
 ## Environmental Data Analysis Steps (Google/Coursera)
-- Ask ([Environmental Data Analysis Steps](#environmental-data-analysis-steps-googlecoursera))
-- Prepare
-- Clean
-- Process
-- Analyse
-- Share
-- Act
+- Ask ([Environmental Data Basics and Resources](#environmental-data-basics-and-resources))
+- Prepare ([Database, Dataset and Software](#database-dataset-and-software))
+- Clean ([Dataset Setup, Clean and LOG](#dataset-setup-clean-and-log))
+- Process ([Data collection and selection ](#data-collection-and-selection))
+- Analyse ([Hypothesis and tools ](#hypothesis-and-tools))
+- Share ([Share and show ](#share-and-show))
+- Act ([Act data-driven](#act-data-driven))
 
 ## Environmental Data Basics and Resources
 - Sources and relations
