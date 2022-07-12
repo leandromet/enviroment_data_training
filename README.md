@@ -4,7 +4,7 @@ Source for training course on environmental data analysis and processing for the
 
 ## Table of Contents:
 
-### Part 01 - [Environmental Data Analysis Steps](/part01/#)
+### [Part 01 - Environmental Data Analysis Steps](/part01/#)
 - [Environmental Data Basics and Resources](#environmental-data-basics-and-resources)
 - [Database, Dataset and Software](#database-dataset-and-software)
 - [Dataset Setup, Clean and LOG](#dataset-setup-clean-and-log)
@@ -12,7 +12,7 @@ Source for training course on environmental data analysis and processing for the
 - [Hypothesis and tools ](#hypothesis-and-tools)
 - [Share and show ](#share-and-show)
 - [Act data-driven](#act-data-driven)
-### Part 02 - More tools and deeper toughts
+### [Part 02 - More tools and deeper toughts](/part02/#)
 - [Open Data -Sources and formats](#open-data--sources-and-formats)
 - [Scientific collection and biodiversity network](#scientific-collection-and-biodiversity-network)
 - [Google BigQuery](#google-bigquery)
@@ -30,7 +30,7 @@ Source for training course on environmental data analysis and processing for the
 
 
 
-# Part 01 - [Environmental Data Analysis Steps](#environmental-data-analysis-steps-googlecoursera)
+# [Part 01 - Environmental Data Analysis Steps](/part01/#)
 
 ## Environmental Data Analysis Steps (Google/Coursera)
 - Ask ([Environmental Data Basics and Resources](#environmental-data-basics-and-resources))
@@ -89,7 +89,7 @@ Source for training course on environmental data analysis and processing for the
 - Listen and amplify
 - Correct and enhance 
 
-# Part 02 - More tools and deeper toughts
+# [Part 02 - More tools and deeper toughts](/part02/#)
 
 ## Open Data -Sources and formats
 ## Scientific collection and biodiversity network
