@@ -7,7 +7,8 @@ Source for training course on environmental data analysis and processing for the
 - [Environmental Data Analysis Steps](#environmental-data-analysis-steps-googlecoursera)
 - [Environmental Data Basics and Resources](#environmental-data-basics-and-resources)
 - [Database, Dataset and Software](#database-dataset-and-software)
-
+- [Dataset Setup, Clean and LOG](#dataset-setup-clean-and-log)
+- 
 
 
 
@@ -39,3 +40,29 @@ Source for training course on environmental data analysis and processing for the
 - Fields, Keys, conventions (Tidy-R)
 - Data validation
 - Spatial data validation (topology check)
+
+## Data collection and selection
+- Business Problem, objectives and target needs
+- Expected steps and duration
+- Data type, volume and timeframe
+- Filtering data (Spreadsheet, R-studio, SQL)
+- Data group, parts and cross relation
+- Summary and report
+## Hypothesis and tools
+- Initial hypothesis, problem definition
+- Graphs and charts for a start
+- Maps and tests to keep track
+- Description and explanation
+## Share and show
+- Analysis and pictures/images
+- Presenting results
+- Positioning, Slide usage, information transmition
+- 5 second rule
+- Highlight, focus and importance scaling
+- Dashboard, Business Inteligence, Update window
+
+## Act data-driven
+- Conclusions
+- Proposals
+- Listen and amplify
+- Correct and enhance 
