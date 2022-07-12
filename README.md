@@ -11,7 +11,7 @@ Source for training course on environmental data analysis and processing for the
 - [Data collection and selection ](#data-collection-and-selection)
 - [Hypothesis and tools ](#hypothesis-and-tools)
 - [Share and show ](#share-and-show)
-- [Act data-driven] (#act-data-driven)
+- [Act data-driven](#act-data-driven)
 
 
 
