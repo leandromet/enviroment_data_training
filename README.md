@@ -4,7 +4,7 @@ Source for training course on environmental data analysis and processing for the
 
 ## Table of Contents:
 
-### Part 01 - [Environmental Data Analysis Steps](#/part01/)
+### Part 01 - [Environmental Data Analysis Steps](/part01/#)
 - [Environmental Data Basics and Resources](#environmental-data-basics-and-resources)
 - [Database, Dataset and Software](#database-dataset-and-software)
 - [Dataset Setup, Clean and LOG](#dataset-setup-clean-and-log)
