@@ -4,9 +4,9 @@ Source for training course on environmental data analysis and processing for the
 
 ## Table of Contents:
 
-- [Environmental Data Analysis Steps](data-steps)
-- [Environmental Data Basics and Resources](basics-resources)
-- [Database, Dataset and Software](data-soft)
+- [Environmental Data Analysis Steps](#data-steps)
+- [Environmental Data Basics and Resources](#basics-resources)
+- [Database, Dataset and Software](#data-soft)
 
 
 
