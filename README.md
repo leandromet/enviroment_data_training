@@ -3,3 +3,33 @@
 Source for training course on environmental data analysis and processing for the XI Simbioma 2022
 
 ## Table of Contents:
+
+- [Environmental Data Analysis Steps](data-steps)
+- [Environmental Data Basics and Resources](basics-resources)
+- [Database, Dataset and Software](data-soft)
+
+
+
+
+
+
+
+## Environmental Data Analysis Steps (Google/Coursera)
+- Ask
+- Prepare
+- Clean
+- Process
+- Analyse
+- Share
+- Act
+
+## Environmental Data Basics and Resources
+- Sources and relations
+- Time, deadline and expectation
+- Resources for environemntal information and raw data
+
+## Database, Dataset and Software
+- Database understanding and structure
+- Dataset definition
+- Software for dataset and database.
+- Relationship over data, time and space
