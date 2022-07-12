@@ -30,6 +30,7 @@ Source for training course on environmental data analysis and processing for the
 
 
 
+# Part 01 - [Environmental Data Analysis Steps](#environmental-data-analysis-steps-googlecoursera)
 
 ## Environmental Data Analysis Steps (Google/Coursera)
 - Ask ([Environmental Data Basics and Resources](#environmental-data-basics-and-resources))
@@ -88,6 +89,7 @@ Source for training course on environmental data analysis and processing for the
 - Listen and amplify
 - Correct and enhance 
 
+# Part 02 - More tools and deeper toughts
 
 ## Open Data -Sources and formats
 ## Scientific collection and biodiversity network
