@@ -18,7 +18,7 @@ Source for training course on environmental data analysis and processing for the
 - [Google BigQuery](#google-bigquery)
 - [Tableau Online](#tableau-online)
 - [Google DataStudio](#google-datastudio)
-- [Wiki constelation]#wiki-constelation)
+- [Wiki constelation](#wiki-constelation)
 - [GitHub / R-Markdown / Jupyter Notebooks](#github--r-markdown--jupyter-notebooks)
 - [Qgis -Processing R](#qgis--processing-r)
 - [Qgis -Legend (levels, scale, constrast)](#qgis--legend-levels-scale-constrast)
