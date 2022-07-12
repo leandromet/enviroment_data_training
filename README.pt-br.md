@@ -34,7 +34,7 @@ Fonte para curso de capacitação em análise e processamento de dados ambientai
 
 
 
-# [Part 01 - Environmental Data Analysis Steps](/part01/#)
+# [Part 01 - Etapas de Análise de Dados Ambientais](/part01/#)
 
 ## Etapas de Análise de Dados Ambientais (Google/Coursera)
 - Perguntar (Fundamentos e recursos de dados ambientais)
