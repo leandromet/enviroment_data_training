@@ -58,10 +58,10 @@
 ## Share and show
 - Analysis and pictures/images
 - Presenting results
-- Positioning, Slide usage, information transmition
+- Positioning, Slide usage, information transmission
 - 5 second rule
 - Highlight, focus and importance scaling
-- Dashboard, Business Inteligence, Update window
+- Dashboard, Business Intelligence, Update window
 
 ## Act data-driven
 - Conclusions
