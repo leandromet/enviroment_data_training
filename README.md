@@ -15,7 +15,7 @@ Each topic will have a code, data or file example, with a related video on youtu
 - [Hypothesis and tools ](#hypothesis-and-tools)
 - [Share and show ](#share-and-show)
 - [Act data-driven](#act-data-driven)
-### [Part 02 - More tools and deeper toughts](/part02/#)
+### [Part 02 - More tools and deeper thoughts](/part02/#)
 - [Open Data -Sources and formats](#open-data--sources-and-formats)
 - [Scientific collection and biodiversity network](#scientific-collection-and-biodiversity-network)
 - [Google BigQuery](#google-bigquery)
@@ -92,7 +92,7 @@ Each topic will have a code, data or file example, with a related video on youtu
 - Listen and amplify
 - Correct and enhance 
 
-# [Part 02 - More tools and deeper toughts](/part02/#)
+# [Part 02 - More tools and deeper thoughts](/part02/#)
 
 ## Open Data -Sources and formats
 ## Scientific collection and biodiversity network
