@@ -1,7 +1,7 @@
 # Environmental Data Training - PART 01
 
 ## Table of Contents:
-
+[Slide presentation files](slides/)
 # Part 01 - [Environmental Data Analysis Steps](#environmental-data-analysis-steps-googlecoursera)
 - [Environmental Data Basics and Resources](#environmental-data-basics-and-resources)
 - [Database, Dataset and Software](#database-dataset-and-software)
