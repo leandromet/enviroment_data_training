@@ -1,0 +1,447 @@
+
+
+
+SELECT count (*), sum(value), year FROM `bigquery-public-data.world_bank_intl_education.international_education` where country_name = 'Brazil'  group by year order by year
+
+
+SELECT distinct(indicator_name), indicator_code FROM `bigquery-public-data.world_bank_intl_education.international_education` where indicator_name like '%Expenditure%' order by indicator_name 
+
+SELECT count (*), sum(value), year FROM `bigquery-public-data.world_bank_intl_education.international_education` where country_name = 'Brazil' and indicator_name like '%Expenditure%'  group by year order by year
+
+apenas de 1995 a 2013
+
+SELECT distinct(indicator_name), year FROM `bigquery-public-data.world_bank_wdi.indicators_data` where country_name = 'Brazil' and indicator_name like '%Expenditure%' group by year,indicator_name order by year desc
+
+1995 a 2015
+
+
+SELECT distinct(indicator_name) FROM `bigquery-public-data.world_bank_wdi.indicators_data` where country_name = 'Brazil' and indicator_name like '%Expenditure%' 
+
+indicator_name
+Expenditure on primary education (% of government expenditure on education)
+Expenditure on secondary education (% of government expenditure on education)
+Expenditure on tertiary education (% of government expenditure on education)
+
+
+SELECT  year, sum(value) FROM `bigquery-public-data.world_bank_wdi.indicators_data` where country_name = 'Brazil' and indicator_name like '%Expenditure%tert%' group by year order by year desc
+
+year	f0_
+2015	21.454
+2014	19.27436
+2013	18.60182
+2012	17.303
+2011	16.76335
+2010	16.39821
+2009	15.98869
+2008	15.91005
+2007	16.17167
+2006	16.66423
+2005	18.99504
+2004	18.92012
+2002	23.5896
+2001	21.58902
+2000	22.07378
+1999	21.06649
+1998	21.43783
+1995	25.46756
+
+
+SELECT distinct(indicator_name), indicator_code, max(year) FROM `bigquery-public-data.world_bank_wdi.indicators_data` where country_name = 'Brazil' and indicator_name like '%GDP%' order by indicator_name
+
+SELECT distinct(indicator_name), indicator_code, min(year), max(year) FROM `bigquery-public-data.world_bank_wdi.indicators_data` where country_name = 'Brazil' and indicator_name like '%GDP%' group by indicator_name,indicator_code order by indicator_name
+
+interessantes
+
+Broad money (% of GDP)  FM.LBL.BMNY.GD.ZS  1960  2020
+Final consumption expenditure (% of GDP)  NE.CON.TOTL.ZS  1960  2020
+GDP (current US$)  NY.GDP.MKTP.CD  1961  2020
+GDP per capita (current US$)  NY.GDP.PCAP.CD  1961  2020
+Government expenditure on education, total (% of GDP)  SE.XPD.TOTL.GD.ZS  1995  2018 
+
+
+
+
+todos
+
+indicator_name	indicator_code	f0_	f1_
+"Agriculture, forestry, and fishing, value added (% of GDP)"	NV.AGR.TOTL.ZS	1960	2020
+Broad money (% of GDP)	FM.LBL.BMNY.GD.ZS	1960	2020
+CO2 emissions (kg per 2015 US$ of GDP)	EN.ATM.CO2E.KD.GD	1960	2018
+CO2 emissions (kg per 2017 PPP $ of GDP)	EN.ATM.CO2E.PP.GD.KD	1990	2018
+CO2 emissions (kg per PPP $ of GDP)	EN.ATM.CO2E.PP.GD	1990	2018
+"Central government debt, total (% of GDP)"	GC.DOD.TOTL.GD.ZS	2006	2016
+"Claims on central government, etc. (% GDP)"	FS.AST.CGOV.GD.ZS	1960	2020
+Coal rents (% of GDP)	NY.GDP.COAL.RT.ZS	1971	2019
+Current account balance (% of GDP)	BN.CAB.XOKA.GD.ZS	1975	2020
+Current health expenditure (% of GDP)	SH.XPD.CHEX.GD.ZS	2000	2019
+Discrepancy in expenditure estimate of GDP (constant LCU)	NY.GDP.DISC.KN	2010	2020
+Discrepancy in expenditure estimate of GDP (current LCU)	NY.GDP.DISC.CN	1960	2020
+Domestic credit to private sector (% of GDP)	FS.AST.PRVT.GD.ZS	1960	2020
+Domestic credit to private sector by banks (% of GDP)	FD.AST.PRVT.GD.ZS	1960	2020
+Domestic general government health expenditure (% of GDP)	SH.XPD.GHED.GD.ZS	2000	2019
+Energy intensity level of primary energy (MJ/$2011 PPP GDP)	EG.EGY.PRIM.PP.KD	1990	2015
+"Energy use (kg of oil equivalent) per $1,000 GDP (constant 2017 PPP)"	EG.USE.COMM.GD.PP.KD	1990	2014
+Expense (% of GDP)	GC.XPN.TOTL.GD.ZS	2010	2019
+Exports of goods and services (% of GDP)	NE.EXP.GNFS.ZS	1960	2020
+External balance on goods and services (% of GDP)	NE.RSB.GNFS.ZS	1960	2020
+Final consumption expenditure (% of GDP)	NE.CON.TOTL.ZS	1960	2020
+"Foreign direct investment, net inflows (% of GDP)"	BX.KLT.DINV.WD.GD.ZS	1970	2020
+"Foreign direct investment, net outflows (% of GDP)"	BM.KLT.DINV.WD.GD.ZS	1970	2020
+Forest rents (% of GDP)	NY.GDP.FRST.RT.ZS	1970	2019
+GDP (constant 2015 US$)	NY.GDP.MKTP.KD	1960	2020
+GDP (constant LCU)	NY.GDP.MKTP.KN	1960	2020
+GDP (current LCU)	NY.GDP.MKTP.CN	1960	2020
+GDP (current US$)	NY.GDP.MKTP.CD	1961	2020
+GDP deflator (base year varies by country)	NY.GDP.DEFL.ZS	1960	2020
+GDP deflator: linked series (base year varies by country)	NY.GDP.DEFL.ZS.AD	1990	2020
+GDP growth (annual %)	NY.GDP.MKTP.KD.ZG	1961	2020
+GDP per capita (constant 2015 US$)	NY.GDP.PCAP.KD	1960	2020
+GDP per capita (constant LCU)	NY.GDP.PCAP.KN	1960	2020
+GDP per capita (current LCU)	NY.GDP.PCAP.CN	1960	2020
+GDP per capita (current US$)	NY.GDP.PCAP.CD	1961	2020
+GDP per capita growth (annual %)	NY.GDP.PCAP.KD.ZG	1961	2020
+"GDP per capita, PPP (constant 2017 international $)"	NY.GDP.PCAP.PP.KD	1990	2020
+"GDP per capita, PPP (current international $)"	NY.GDP.PCAP.PP.CD	1990	2020
+GDP per person employed (constant 2017 PPP $)	SL.GDP.PCAP.EM.KD	1991	2020
+GDP per unit of energy use (PPP $ per kg of oil equivalent)	EG.GDP.PUSE.KO.PP	1990	2014
+GDP per unit of energy use (constant 2017 PPP $ per kg of oil equivalent)	EG.GDP.PUSE.KO.PP.KD	1990	2014
+"GDP, PPP (constant 2017 international $)"	NY.GDP.MKTP.PP.KD	1990	2020
+"GDP, PPP (current international $)"	NY.GDP.MKTP.PP.CD	1990	2020
+GDP: linked series (current LCU)	NY.GDP.MKTP.CN.AD	1990	2020
+General government final consumption expenditure (% of GDP)	NE.CON.GOVT.ZS	1960	2020
+"Government expenditure on education, total (% of GDP)"	SE.XPD.TOTL.GD.ZS	1995	2018
+"Government expenditure per student, primary (% of GDP per capita)"	SE.XPD.PRIM.PC.ZS	1999	2015
+"Government expenditure per student, secondary (% of GDP per capita)"	SE.XPD.SECO.PC.ZS	2002	2015
+"Government expenditure per student, tertiary (% of GDP per capita)"	SE.XPD.TERT.PC.ZS	1998	2015
+Gross capital formation (% of GDP)	NE.GDI.TOTL.ZS	1960	2020
+Gross domestic savings (% of GDP)	NY.GDS.TOTL.ZS	1960	2020
+Gross fixed capital formation (% of GDP)	NE.GDI.FTOT.ZS	1970	2020
+"Gross fixed capital formation, private sector (% of GDP)"	NE.GDI.FPRV.ZS	1980	1989
+Gross national expenditure (% of GDP)	NE.DAB.TOTL.ZS	1960	2020
+Gross savings (% of GDP)	NY.GNS.ICTR.ZS	1975	2020
+Households and NPISHs final consumption expenditure (% of GDP)	NE.CON.PRVT.ZS	1960	2020
+Imports of goods and services (% of GDP)	NE.IMP.GNFS.ZS	1960	2020
+"Industry (including construction), value added (% of GDP)"	NV.IND.TOTL.ZS	1960	2020
+"Inflation, GDP deflator (annual %)"	NY.GDP.DEFL.KD.ZG	1961	2020
+"Inflation, GDP deflator: linked series (annual %)"	NY.GDP.DEFL.KD.ZG.AD	1990	2020
+"Manufacturing, value added (% of GDP)"	NV.IND.MANF.ZS	1960	2020
+Market capitalization of listed domestic companies (% of GDP)	CM.MKT.LCAP.GD.ZS	2000	2020
+Merchandise trade (% of GDP)	TG.VAL.TOTL.GD.ZS	1961	2020
+Military expenditure (% of GDP)	MS.MIL.XPND.GD.ZS	1960	2020
+Mineral rents (% of GDP)	NY.GDP.MINR.RT.ZS	1970	2019
+Monetary Sector credit to private sector (% GDP)	FM.AST.PRVT.GD.ZS	1960	2020
+Natural gas rents (% of GDP)	NY.GDP.NGAS.RT.ZS	1970	2019
+Net acquisition of financial assets (% of GDP)	GC.AST.TOTL.GD.ZS	2010	2019
+"Net incurrence of liabilities, total (% of GDP)"	GC.LBL.TOTL.GD.ZS	2010	2019
+Net investment in nonfinancial assets (% of GDP)	GC.NFN.TOTL.GD.ZS	1980	2016
+Net lending (+) / net borrowing (-) (% of GDP)	GC.NLD.TOTL.GD.ZS	2010	2019
+Oil rents (% of GDP)	NY.GDP.PETR.RT.ZS	1970	2019
+"PPP conversion factor, GDP (LCU per international $)"	PA.NUS.PPP	1990	2020
+"Personal remittances, received (% of GDP)"	BX.TRF.PWKR.DT.GD.ZS	1975	2020
+Price level ratio of PPP conversion factor (GDP) to market exchange rate	PA.NUS.PPPC.RF	1990	2020
+Research and development expenditure (% of GDP)	GB.XPD.RSDV.GD.ZS	2000	2018
+"Revenue, excluding grants (% of GDP)"	GC.REV.XGRT.GD.ZS	2010	2019
+"Services, value added (% of GDP)"	NV.SRV.TOTL.ZS	1960	2020
+"Stocks traded, total value (% of GDP)"	CM.MKT.TRAD.GD.ZS	1979	2020
+Tax revenue (% of GDP)	GC.TAX.TOTL.GD.ZS	2010	2019
+Total natural resources rents (% of GDP)	NY.GDP.TOTL.RT.ZS	1970	2019
+Trade (% of GDP)	NE.TRD.GNFS.ZS	1960	2020
+Trade in services (% of GDP)	BG.GSR.NFSV.GD.ZS	1975	2020
+"Water productivity, total (constant 2015 US$ GDP per cubic meter of total freshwater withdrawal)"	ER.GDP.FWTL.M3.KD	1987	2017
+
+
+
+
+
+
+
+select distinct(year), sum(value) as broad_money FROM `bigquery-public-data.world_bank_wdi.indicators_data` where country_name = 'Brazil' and indicator_code = 'FM.LBL.BMNY.GD.ZS' group by year order by year
+
+year	broad_money
+1960	21.9317537396174
+1961	21.8578056999365
+1962	22.2618824718267
+1963	20.3875654892367
+1964	18.5705129807228
+1965	19.8162299582071
+1966	16.3022185674278
+1967	18.7586823324962
+1968	19.3520938598711
+1969	19.3494055322413
+1970	19.4081470928611
+1971	20.1319326422213
+1972	18.7546455329118
+1973	18.1699446212164
+1974	16.9096613214884
+1975	17.1507371368301
+1976	15.3002233080735
+1977	14.5207866587508
+1978	14.5690962575126
+1979	15.2988406764672
+1980	11.7686507130263
+1981	11.5299152374023
+1982	10.4682104319165
+1983	10.9858330200478
+1984	12.785222194119
+1985	14.3689168067947
+1986	20.8799625638871
+1987	20.6593216072822
+1988	80.4476356609773
+1989	111.325303911187
+1990	30.3945142169109
+1991	35.0296017471821
+1992	60.9324118934916
+1993	93.6588465920448
+1994	45.4613037988532
+1995	32.4485468801537
+1996	35.118481561031
+1997	36.9651290494395
+1998	39.3317317429728
+1999	42.811054211001
+2000	46.4865878068579
+2001	58.6361717166178
+2002	55.0049821725667
+2003	56.5263637979904
+2004	56.3320651091777
+2005	60.1330444597422
+2006	63.249779465788
+2007	68.3591986203862
+2008	70.4894529683896
+2009	76.0904194368971
+2010	74.2193801418355
+2011	76.825275137052
+2012	79.052862020896
+2013	78.6265278092152
+2014	81.906564014111
+2015	88.0696276444147
+2016	93.8211379438764
+2017	93.059558109052
+2018	93.7130340291238
+2019	95.8258109062606
+2020	111.524625625808
+
+
+select distinct(year), sum(value)/1000000000 as gdp_curr_usd_bn FROM `bigquery-public-data.world_bank_wdi.indicators_data` where country_name = 'Brazil' and indicator_code = 'NY.GDP.MKTP.CD' group by year order by year
+
+
+year	gdp_curr_usd_bn
+1961	17.2759404493837
+1962	19.2317478515332
+1963	23.2877128782002
+1964	20.9637336949749
+1965	22.4655228840988
+1966	28.283323733111402
+1967	31.086389194960997
+1968	33.9304574252613
+1969	37.171640818586305
+1970	42.327664793693394
+1971	48.8698309017878
+1972	58.4348583748696
+1973	83.592275862998193
+1974	109.79451972753799
+1975	129.203555238827
+1976	153.168949208207
+1977	176.344101401941
+1978	200.27864612358098
+1979	221.33820448022198
+1980	237.393489892637
+1981	258.015174748648
+1982	271.314113768417
+1983	189.656506321431
+1984	188.33997408657999
+1985	210.879841322306
+1986	256.480855343617
+1987	283.056833878212
+1988	308.333568571493
+1989	347.028139590227
+1990	390.725626002866
+1991	342.60922720964504
+1992	328.18794430090804
+1993	368.295777770079
+1994	525.369851353742
+1995	769.333330368987
+1996	850.426433004077
+1997	883.206452795124
+1998	863.711007325493
+1999	599.64207500447094
+2000	655.4481882593509
+2001	559.98370409417009
+2002	509.79527068519
+2003	558.233724164711
+2004	669.289321944516
+2005	891.633826603377
+2006	1107.62671140663
+2007	1397.11424733117
+2008	1695.8553918108998
+2009	1666.9962943728701
+2010	2208.8381085770898
+2011	2616.15660666662
+2012	2465.2282938940098
+2013	2472.81936221669
+2014	2456.04376602873
+2015	1802.21199953868
+2016	1795.69326581023
+2017	2063.51468876198
+2018	1916.9337083818898
+2019	1877.82427372078
+2020	1444.73325897165
+
+
+
+
+select distinct(year), sum(value) as gdp_per_capita_usd FROM `bigquery-public-data.world_bank_wdi.indicators_data` where country_name = 'Brazil' and indicator_code = 'NY.GDP.PCAP.CD' group by year order by year
+
+year	gdp_per_capita_usd
+1961	232.480546230829
+1962	251.348317405138
+1963	295.631970805808
+1964	258.605370728102
+1965	269.456289972728
+1966	330.040585940268
+1967	353.110710623409
+1968	375.390573527233
+1969	400.787069424398
+1970	445.02378079118
+1971	501.316814178866
+1972	585.171404964645
+1973	817.452445155272
+1974	1048.59623468058
+1975	1205.07483377655
+1976	1395.09639887333
+1977	1568.54335363973
+1978	1739.72056573285
+1979	1877.68227213837
+1980	1966.90362644202
+1981	2088.0026865078
+1982	2144.80405335667
+1983	1465.10809173055
+1984	1422.68391394237
+1985	1558.90793451031
+1986	1857.0912337094
+1987	2009.03972858548
+1988	2146.75850960088
+1989	2371.57219575685
+1990	2622.26288057098
+1991	2259.23989366801
+1992	2127.50718981169
+1993	2348.09004733429
+1994	3295.24492362344
+1995	4748.38820787605
+1996	5166.16393308148
+1997	5282.04946994988
+1998	5087.07907232375
+1999	3479.84383285395
+2000	3749.91084752888
+2001	3160.24934491441
+2002	2839.49150108966
+2003	3070.43641941942
+2004	3637.3138901512
+2005	4790.45656586131
+2006	5886.39152194816
+2007	7348.18796290712
+2008	8831.18364277674
+2009	8597.79433526264
+2010	11286.071540212
+2011	13245.387369564
+2012	12370.2232548476
+2013	12300.3867121004
+2014	12112.8349554875
+2015	8813.98980647828
+2016	8710.06328995352
+2017	9928.67589653405
+2018	9151.38173161536
+2019	8897.55296585529
+2020	6796.84454227877
+
+
+
+select distinct(year), sum(value) as expend_education_percent FROM `bigquery-public-data.world_bank_wdi.indicators_data` where country_name = 'Brazil' and indicator_code = 'SE.XPD.TOTL.GD.ZS' group by year order by year
+
+
+year	expend_education_percent
+1995	4.56816005706787
+1998	4.75665998458862
+1999	3.80062007904053
+2000	3.94893002510071
+2001	3.84468007087708
+2002	3.75037002563477
+2004	3.97447991371155
+2005	4.47908020019531
+2006	4.87060022354126
+2007	4.97425985336304
+2008	5.26883983612061
+2009	5.46355009078979
+2010	5.64879989624023
+2011	5.73741006851196
+2012	5.85510015487671
+2013	5.8388500213623
+2014	5.94848012924194
+2015	6.24105978012085
+2016	6.314040184021
+2017	6.32047986984253
+2018	6.08851003646851
+
+
+
+SELECT distinct(indicator_name), indicator_code, min(year), max(year) FROM `bigquery-public-data.world_bank_wdi.indicators_data` where country_name = 'Brazil' and indicator_name like '%dvanced%' group by indicator_name,indicator_code order by indicator_name
+
+
+Labor force with advanced education, male (% of male working-age population with advanced education)  SL.TLF.ADVN.MA.ZS  1995  2020
+Unemployment with advanced education (% of total labor force with advanced education)  SL.UEM.ADVN.ZS  1995  2020
+
+
+select distinct(year), sum(value) as male_advanced FROM `bigquery-public-data.world_bank_wdi.indicators_data` where country_name = 'Brazil' and indicator_code = 'SL.TLF.ADVN.MA.ZS' group by year order by year
+year	male_advanced
+1995	90.3499984741211
+1996	89.120002746582
+1997	90.4400024414063
+1998	89.7900009155273
+1999	88.5100021362305
+2001	88.8899993896484
+2002	89.2799987792969
+2003	88.7600021362305
+2004	88.0199966430664
+2005	88.3899993896484
+2006	88.9199981689453
+2007	88.3099975585938
+2008	88.4000015258789
+2009	88.9899978637695
+2011	88.120002746582
+2012	86.6699981689453
+2013	84.0299987792969
+2014	84.75
+2015	88.0299987792969
+2016	88.5400009155273
+2017	88.3899993896484
+2018	87.9899978637695
+2019	88.2099990844727
+2020	84.629997253418
+
+
+select distinct(year), sum(value) as male_advanced FROM `bigquery-public-data.world_bank_wdi.indicators_data` where country_name = 'Brazil' and indicator_code = 'SL.UEM.ADVN.ZS' group by year order by year
+
+year	male_advanced
+1995	2.40000009536743
+1996	2.98000001907349
+1997	3.34999990463257
+1998	3.61999988555908
+1999	4.23000001907349
+2001	3.69000005722046
+2002	3.53999996185303
+2003	4.05999994277954
+2004	3.61999988555908
+2005	3.95000004768372
+2006	3.70000004768372
+2007	3.82999992370605
+2008	3.84999990463257
+2009	3.91000008583069
+2011	3.51999998092651
+2012	1.08000004291534
+2013	1.38999998569489
+2014	1.29999995231628
+2015	5.11999988555908
+2016	6.3600001335144
+2017	7.0
+2018	6.84000015258789
+2019	6.80000019073486
+2020	7.57999992370605
