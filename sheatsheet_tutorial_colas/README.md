@@ -1,1 +1,2 @@
-Arquivos e links com material de apois aos métodos e software.
+Arquivos e links com material de apoio aos métodos e software.
+cheat-sheet = cola
