@@ -1,6 +1,6 @@
-###Arquivos e links com material de apoio aos métodos e software.###
+## Arquivos e links com material de apoio aos métodos e software.
 
-Cheat-sheet = cola
+### Cheat-sheet = cola
 
 - [R - Interface gráfica do Rstudio](rstudio-ide.pdf)
 - [R - Operações com strings (letras e palavras)](strings.pdf)
