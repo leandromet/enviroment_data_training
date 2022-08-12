@@ -12,6 +12,7 @@
 - [R - Bloco de anotações com código](rmarkdown-2.0.pdf)
 - [PostgreSQL - Colas para linha de comando](postgres-cheatsheet.md)
 - [PostgreSQL - Tutorial consultas SQL mais comuns](SQLQueryCheatsheetforPostgresbyGreekDataGuy.pdf)
+- [PostgreSQL/PosGIS - Consultas SQL GEOmétricas e geográficas](postgis21_cheatsheet.pdf)
 - [Porque usar dados no processo de design](WhyUseDataintheDesignProcess.pdf)
 - [Material curso geo car 2019](SFB_CAR_LeandroBiondo_7_geo_curso_2019.pdf)
 - [Colas para gráficos no Tableau](TheUltimateCheatSheetonTableauCharts_byKateStrachnyi.pdf)
