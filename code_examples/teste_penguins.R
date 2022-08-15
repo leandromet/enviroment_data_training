@@ -67,3 +67,14 @@ ggplot(data=penguins,aes(x=flipper_length_mm,y=body_mass_g)) + geom_col(aes(shap
 
 # E aquele histograma? Aqui eu posso dividir por grupos coloridos
 ggplot(data=penguins,aes(x=flipper_length_mm, fill = species)) + geom_histogram(bins=10)+facet_wrap(~species)
+
+
+# Análise de componente principal usando o GGaly conforme exemplo em https://allisonhorst.github.io/palmerpenguins/articles/intro.html 
+install.packages("GGally")
+library(GGally)
+
+penguins %>%
+  select(species, body_mass_g, ends_with("_mm")) %>% 
+  GGally::ggpairs(aes(color = species)) +
+  scale_colour_manual(values = c("darkorange","purple","cyan4")) +
+  scale_fill_manual(values = c("darkorange","purple","cyan4"))
