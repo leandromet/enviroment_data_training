@@ -1,3 +1,9 @@
+#Outro tutorial usando os mesmos dados em: https://allisonhorst.github.io/palmerpenguins/
+#Mais exemplos com este dataset em: https://allisonhorst.github.io/palmerpenguins/articles/examples.html
+#muitos exemplos de gráficos e formatos em: https://r-graph-gallery.com/
+
+
+
 #instalar pacote
 install.packages("tidyverse")
 
