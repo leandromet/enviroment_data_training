@@ -153,6 +153,22 @@ Trade in services (% of GDP)	BG.GSR.NFSV.GD.ZS	1975	2020
 
 
 
+select country_name, year, indicator_code, indicator_name, sum(value) as value_year FROM `bigquery-public-data.world_bank_wdi.indicators_data` 
+where indicator_code in 
+('SH.UHC.NOP1.ZS',
+'SH.UHC.NOP2.ZS',
+'SH.XPD.CHEX.PC.CD',
+'SH.XPD.CHEX.PP.CD',
+'NY.GDP.PCAP.CD',
+'SH.XPD.GHED.GD.ZS',
+'NY.GDP.MKTP.PP.CD',
+'NY.GDP.TOTL.RT.ZS',
+'SP.DYN.IMRT.IN',
+'SH.DYN.MORT',
+'SH.STA.POIS.P5')
+group by country_name, indicator_code, indicator_name, year order by year, country, indicator_name
+
+
 
 
 select distinct(year), sum(value) as broad_money FROM `bigquery-public-data.world_bank_wdi.indicators_data` where country_name = 'Brazil' and indicator_code = 'FM.LBL.BMNY.GD.ZS' group by year order by year
